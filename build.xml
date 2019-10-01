@@ -9,7 +9,7 @@
 <!-- in the project's Project Properties dialog box.-->
 <project name="SampleWebApplication" default="default" basedir=".">
     <description>Builds, tests, and runs the project SampleWebApplication.</description>
-    <target name='default'> 
+    <target name="default"> 
         <echo> Building Jar </echo>
     </target>
     <import file="nbproject/build-impl.xml"/>
